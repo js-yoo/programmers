@@ -21,7 +21,5 @@ def solution(participant, completion):
     return answer
 
 # Example)
-# solution(["leo", "kiki", "eden"], ["eden", "kiki"])
-# >>> "leo"    
-# solution(	["marina", "josipa", "nikola", "vinko", "filipa"], ["josipa", "filipa", "marina", "nikola"])
-# >>> "vinko"
+# solution(["leo", "kiki", "eden"], ["eden", "kiki"]) == "leo" 
+# solution(	["marina", "josipa", "nikola", "vinko", "filipa"], ["josipa", "filipa", "marina", "nikola"]) == "vinko"
