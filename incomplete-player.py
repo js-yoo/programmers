@@ -23,3 +23,5 @@ def solution(participant, completion):
 # Example)
 # solution(["leo", "kiki", "eden"], ["eden", "kiki"])
 # >>> "leo"    
+# solution(	["marina", "josipa", "nikola", "vinko", "filipa"], ["josipa", "filipa", "marina", "nikola"])
+# >>> "vinko"
