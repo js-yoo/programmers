@@ -1,0 +1,9 @@
+# https://programmers.co.kr/learn/courses/30/lessons/12918
+# Difficulty : Level 1
+
+def solution(s):
+    return all(c.isdigit() for c in s) and len(s)==4 or len(s)==6
+
+# Example)
+# solution("a234") == false
+# solution("1234") == true
